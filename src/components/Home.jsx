@@ -5,13 +5,15 @@ export default function Home() {
     <div className="home">
       <div className="container">
         <div className="content">
-          <p className="sub-title">Launching Soon</p>
-          <h1 className="title">An NFT like no other</h1>
+          <p className="sub-title">Neobit Protocol</p>
+          <h2 className="title">What is NeoBit Protocol.</h2>
           <p className="description">
-            Don't miss out on the release of our new NFT. Sign up below to
-            recieve updates when we go live.
+          Neobit Token is a governance token built on the Binance Smart Chain (BEP20) blockchain network, created to build the DeFi ecosystem and deliver rights to all Neobit holders to also manage the platform through a voting mechanism.
           </p>
-          <button>Sign Up</button>
+          <h6 className="title">400,000,000. Total Supply NeoBits.</h6>
+          <a href="https://exchange.neobit.tech" target="_blank">
+            <button>Swap Now</button>
+          </a>
         </div>
         <div className="image-container">
           <div className="image">

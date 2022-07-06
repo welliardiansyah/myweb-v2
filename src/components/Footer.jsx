@@ -1,31 +1,30 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
-import { FaTiktok } from "react-icons/fa";
+import { BsDiscord, BsTwitter, BsTelegram, BsYoutube } from "react-icons/bs";
 export default function Footer() {
   const links = [
     {
       title: "About",
-      data: ["About", "Terms", "Legal"],
+      data: ["Docs", "Team", "News", "Github"],
     },
     {
-      title: "NFT",
-      data: ["OpenSea", "Maker", "Learn"],
+      title: "Features",
+      data: ["Swap", "Liquidity", "NeoBitFarm", "NeoBitPad", "Staking"],
     },
     {
-      title: "Contact",
-      data: ["Press", "Support"],
+      title: "Services",
+      data: ["Referal Program", "NeoBit Token", "Apply to Launch", "Space Agent"],
     },
     {
-      title: "Social",
-      data: ["Twiiter", "Instagram"],
+      title: "Communities",
+      data: ["Discord", "Telegram", "Twitter"],
     },
   ];
   const socialLink = [
-    <BsFacebook />,
-    <BsTwitter />,
-    <BsInstagram />,
-    <FaTiktok />,
+    <a className="minilink" href="" target="_blank"><BsDiscord /></a>,
+    <a className="minilink" href="https://t.me/NeoBit_Official" target="_blank"><BsTelegram /></a>,
+    <a className="minilink" href="https://twitter.com/neobitprotocol" target="_blank"><BsTwitter /></a>,
+    <a className="minilink" href="" target="_blank"><BsYoutube /></a>,
   ];
   return (
     <footer>
@@ -34,7 +33,9 @@ export default function Footer() {
           <div className="brand">
             <img src={logo} alt="logo" />
           </div>
-          <p>Exclusive NFT Collection</p>
+          <p>Neobit Token is a governance token built on the Binance Smart Chain (BEP20)  <br />  blockchain network,
+              created to build the DeFi ecosystem and deliver <br /> rights to all Neobit holders to also manage
+              the platform through a voting mechanism.</p>
           <ul>
             {socialLink.map((link, index) => (
               <li key={index}>{link}</li>
@@ -57,8 +58,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="lower">
-        <span>&copy; Copyright 2022 NFT</span>
-        <span>Launching August 2022</span>
+        <span>&copy; Copyright 2022 NeoBit Protocol.</span>
+        <span>Development by NeoBit.tech - Version 2.0</span>
       </div>
     </footer>
   );

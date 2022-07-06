@@ -1,9 +1,9 @@
 .free {
   position: relative;
-  margin: 5rem 0;
+  margin-top: 20rem;
   .container {
     display: flex;
-    background-color: var(--orange);
+    background-color: #1fc2df;
     position: relative;
     height: 25rem;
     border-radius: 1rem;
@@ -21,12 +21,17 @@
       .pink {
         top: -10%;
         left: -15%;
-        background-color: var(--pink);
+        background-color: #6cddff;
       }
       .green {
         top: -10%;
         right: -15%;
-        background-color: var(--green);
+        background-color: #0007ff;
+      }
+      .green {
+        top: -10%;
+        right: -15%;
+        background-color: #575cf1;
       }
     }
     .content {
@@ -51,8 +56,8 @@
   .cards {
     display: flex;
     position: absolute;
-    top: -2rem;
-    right: 40%;
+    top: -8rem;
+    right: 35%;
     .card1 {
       top: 0;
       position: absolute;
@@ -61,8 +66,9 @@
       font-size: 0.6rem;
       .card-image {
         img {
-          height: 10rem;
-          width: 12rem;
+          margin: 2rem 2.5rem 2rem 3rem;
+          height: 7rem;
+          width: 7rem;
         }
       }
     }
@@ -70,12 +76,14 @@
       top: 0;
       z-index: 2;
       position: absolute;
-      left: 10rem;
+      left: 13rem;
       transform: rotate(5deg);
       font-size: 0.7rem;
       .card-image {
         img {
-          height: 10rem;
+          margin: 2rem 2.5rem 2rem 3rem;
+          height: 7rem;
+          width: 7rem;
         }
       }
     }

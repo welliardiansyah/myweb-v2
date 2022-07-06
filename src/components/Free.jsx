@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./Card";
-import icon from "../assets/icon.png";
-import super1 from "../assets/super1.png";
-import release2 from "../assets/release2.png";
+import icon from "../assets/logo.png";
+import super1 from "../assets/swap.png";
+import release2 from "../assets/lock.png";
 
 export default function Free() {
   return (
@@ -16,9 +16,9 @@ export default function Free() {
           <div className="image">
             <img src={icon} alt="icon" />
           </div>
-          <h2 className="title">Free NFT for early birds</h2>
+          <h2 className="title">Trade, Earn on the most progressive DEX on BNB Chain</h2>
           <p className="description">
-            Sign up today and you'll get a free NFT when we launch
+            Instead, it uses smart contract based on blockchain technology, which allows developers to build better functions. Decentralized Exchange consist of trading, saving, Earn, and insurances services that can be accessed by anyone at any time using a smartphone or a laptop and internet connection.
           </p>
         </div>
       </div>
@@ -26,21 +26,15 @@ export default function Free() {
         <div className="card1">
           <Card
             image={super1}
-            series="Gloop Series"
-            title="Purple Man"
-            price={2.99}
-            tag={12983}
-            time={1}
+            series="Launch App Information"
+            title="SWAP"
           />
         </div>
         <div className="card2">
           <Card
             image={release2}
-            series="Gloop Series"
-            title="Purple Man"
-            price={3.95}
-            tag="1094"
-            time={2}
+            series="Launch App Information"
+            title="LIQUIDITY"
           />
         </div>
       </div>

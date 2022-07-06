@@ -16,10 +16,21 @@
         letter-spacing: 0.1rem;
       }
       .title {
-        color: var(--accent-color1);
+        background-color: #ffa802;
+        background-image: linear-gradient(101deg, #ffa802, #af4261, #df1fdc, #0007ff);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
       }
       .description {
         color: var(--accent-color3);
+        font-size: 1.5rem;
+        a {
+          color: var(--accent-color3);
+          font-weight: bold;
+        }
       }
       button {
         color: var(--accent-color1);
@@ -69,6 +80,11 @@
           bottom: 40%;
           left: 40%;
           background-color: var(--orange);
+        }
+        .blue {
+          bottom: 40%;
+          left: 40%;
+          background-color: var(--blue);
         }
       }
     }
