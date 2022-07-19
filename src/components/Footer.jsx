@@ -21,10 +21,9 @@ export default function Footer() {
     },
   ];
   const socialLink = [
-    <a className="minilink" href="#" target="_blank"><BsDiscord /></a>,
+    <a className="minilink" href="https://discord.gg/EsK6j7EbGt" target="_blank"><BsDiscord /></a>,
     <a className="minilink" href="https://t.me/NeoBit_Official" target="_blank"><BsTelegram /></a>,
     <a className="minilink" href="https://twitter.com/neobitprotocol" target="_blank"><BsTwitter /></a>,
-    <a className="minilink" href="" target="_blank"><BsYoutube /></a>,
   ];
   return (
     <footer>
