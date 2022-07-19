@@ -1,5 +1,4 @@
 import React from "react";
-import superEth from "../assets/supereth.png";
 export default function Card({ image, series, title, price, tag, time }) {
   return (
     <div className="card">

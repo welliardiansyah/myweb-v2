@@ -4,6 +4,7 @@ import { MdClose } from "react-icons/md";
 import { ImSun } from "react-icons/im";
 import { BsFillMoonFill } from "react-icons/bs";
 import logo from "../assets/logo.png";
+import PDF from "../NEOBIT.pdf";
 export default function Navbar({ changeTheme, currentTheme }) {
   const [navState, setNavState] = useState(false);
   return (
@@ -37,23 +38,17 @@ export default function Navbar({ changeTheme, currentTheme }) {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#about">Contract</a>
+            <a href="https://bscscan.com/address/0x0b4D95fd2F9b6B1d2d3F0d65990597EE483264B1" target="_blank">Contract</a>
           </li>
           <li>
-            <a href="#launch">Audit</a>
+            <a href="#launch">Audit (Coming Soon)</a>
           </li>
           <li>
-            <a href="#signup">Whitepaper</a>
-          </li>
-          <li>
-            <a href="#signup">NeoBitsFarm</a>
-          </li>
-          <li>
-            <a href="#signup">NeoBitsPad</a>
+            <a href={PDF} target="_blank">Whitepaper</a>
           </li>
           <li>
             <a href="https://exchange.neobit.tech" target="_blank">
-              <button>Launch Dapps</button>
+              <button>Launch Apps</button>
             </a>
           </li>
           <li onClick={changeTheme}>

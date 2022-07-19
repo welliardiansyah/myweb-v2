@@ -57,9 +57,9 @@ export default function Release() {
           <p className="description"><BsArrowRight /> Create whitepaper</p>
           <p className="description"><BsArrowRight /> Marketing campaigne</p>
           <p className="description"><BsArrowRight /> Smartcontract building</p>
-          <a href="#" className="link">
+          {/* <a href="#" className="link">
             Check next progress <BsArrowRight />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
