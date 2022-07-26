@@ -11,7 +11,7 @@ export default function Home() {
           Neobit Token is a governance token built on the Binance Smart Chain (BEP20) blockchain network, created to build the DeFi ecosystem and deliver rights to all Neobit holders to also manage the platform through a voting mechanism.
           </p>
           <h6 className="title">400,000,000. Total Supply NeoBits.</h6>
-          <a href="https://exchange.neobit.tech" target="_blank">
+          <a href="https://swap.neobit.tech" target="_blank">
             <button>Swap Now</button>
           </a>
         </div>

@@ -47,7 +47,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
             <a href={PDF} target="_blank">Whitepaper</a>
           </li>
           <li>
-            <a href="https://exchange.neobit.tech" target="_blank">
+            <a href="https://swap.neobit.tech" target="_blank">
               <button>Launch Apps</button>
             </a>
           </li>
